@@ -1,0 +1,71 @@
+html {
+    background-color: rgb(58, 70, 70);
+}
+
+@media screen and (min-width: 370px) {
+    h1 {
+        font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+        font-size: 100%;
+    }
+    h1.name {
+        font-size: 200%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    h1 {
+        font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+        font-size: 150%;
+    }
+    h1.name {
+        font-size: 180%;
+    }
+}
+
+#paper {
+    display: flex;
+    position: relative;
+    background-color: white;
+    max-width: 550px;
+    flex-basis: auto;
+    margin: 0 auto 25px auto;
+    padding: 60px 60px 60px 60px;
+    top: 50px;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+}
+
+.nameBox {
+    top: 5px;
+    height: 65px;
+    color: #275D38;
+    border-top: .5px solid rgb(58, 70, 70);
+    border-bottom: 2.5px solid rgb(58, 70, 70);
+    width: 550px;
+}
+
+h1.name {
+    align-self: flex-start;
+    position: relative;
+    top: -10px;
+    color: #275D38;
+}
+
+.subHeading {
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    color: #275D38;
+    cursor: pointer;
+}
+
+#highBox {
+    display: flex;
+    min-width: 400px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#myFoot {
+    text-align: center;
+    margin: 50px auto 50px auto;
+}
